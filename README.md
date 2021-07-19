@@ -62,3 +62,11 @@ git status
 
 `git pull` Fetch and merge any commits from the tracking remote branch
 
+# Tracking Path Changes
+
+`git rm {file}` Delete the file from project and stage the removal for commit
+
+`git mv {existing-path} {new-path}` Change an existing file path and stage the move
+
+`git log --stat -M` Show all commit logs with indication of any paths that moved 
+

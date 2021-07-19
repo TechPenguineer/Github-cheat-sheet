@@ -75,3 +75,19 @@ git status
 
 `git reset --hard {commit}` Clear staging area, rewrite working tree from specified commit
 
+# Temporary Commits
+ 
+`git stash` Save modified and staged changes
+
+`git stash list` List stack-order of stashed file changes
+
+`git stash pop` Write working from top of stash stack
+
+`git stash drop` Discard the changes from top of stash stack
+
+
+
+# SOURCES
+All of this content belongs to [Github Education](https://education.github.com/git-cheat-sheet-education.pdf). I simply put it in markdown  form.
+
+

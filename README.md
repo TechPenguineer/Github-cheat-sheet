@@ -37,3 +37,28 @@ git status
 `git init` Initialize an existing directory as a Git repository
 
 `git clone {GIT HTTPS}` Retrieve an entire repository from a hosted location via URL
+
+# Inspect & Compare
+
+`git log` Show the commit history for the currently active branch
+
+`git log branchB..branchA` Show the commits on branchA that are not on branchB
+
+`git log --follow {file}` Show the commits that changed file, even across renames
+
+`git diff branchB...branchA` Show the diff of what is in branchA that is not in branchB
+
+`git show {SHA}` Show any object in Git in human-readable format
+
+# Share & Update
+
+`git remote add {alias} {url}` Add a git URL as an alias
+
+`git fetch {alias}` Fetch down all the branches from that Git remote
+
+`git merge {alias}/{branch}` Merge a remote branch into your current branch to bring it up to date
+
+`git push {alias} {branch} ` Transmit local branch commits to the remote repository branch
+
+`git pull` Fetch and merge any commits from the tracking remote branch
+

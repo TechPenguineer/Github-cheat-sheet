@@ -1,4 +1,4 @@
-**ALL OF THIS DOCUMENT IS REFFERENCED FROM OTHER DOCUMENTS**
+**ALL OF THIS DOCUMENT IS rEFFErENCED FrOM OTHEr DOCUMENTS**
 # Snapshots
 `
 git status
@@ -25,22 +25,22 @@ git status
 
 `git branch` Get a list of all the branches
 
-`git branch {BRANCH NAME}` Creates a new branch when a new commit is  made
+`git branch {BrANCH NAME}` Creates a new branch when a new commit is  made
 
 `git checkout` Switch to a new branch
 
-`git merge {branch}` Mege the current branch with the specified one
+`git merge {branch}` Mege the curent branch with the specified one
 
 `git log` Get a log of all commits under that branch
 
 # Setup & Init
 `git init` Initialize an existing directory as a Git repository
 
-`git clone {GIT HTTPS}` Retrieve an entire repository from a hosted location via URL
+`git clone {GIT HTTPS}` retrieve an entire repository from a hosted location via UrL
 
 # Inspect & Compare
 
-`git log` Show the commit history for the currently active branch
+`git log` Show the commit history for the curently active branch
 
 `git log branchB..branchA` Show the commits on branchA that are not on branchB
 
@@ -52,11 +52,11 @@ git status
 
 # Share & Update
 
-`git remote add {alias} {url}` Add a git URL as an alias
+`git remote add {alias} {url}` Add a git UrL as an alias
 
 `git fetch {alias}` Fetch down all the branches from that Git remote
 
-`git merge {alias}/{branch}` Merge a remote branch into your current branch to bring it up to date
+`git merge {alias}/{branch}` Merge a remote branch into your curent branch to bring it up to date
 
 `git push {alias} {branch} ` Transmit local branch commits to the remote repository branch
 
@@ -69,4 +69,9 @@ git status
 `git mv {existing-path} {new-path}` Change an existing file path and stage the move
 
 `git log --stat -M` Show all commit logs with indication of any paths that moved 
+
+# Rewrite History
+`git rebase {branch}` Apply any commits of curent branch ahead of specified one
+
+`git reset --hard {commit}` Clear staging area, rewrite working tree from specified commit
 

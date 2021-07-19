@@ -1,3 +1,4 @@
+**ALL OF THIS DOCUMENT IS REFFERENCED FROM OTHER DOCUMENTS**
 # Snapshots
 `
 git status
@@ -31,3 +32,8 @@ git status
 `git merge {branch}` Mege the current branch with the specified one
 
 `git log` Get a log of all commits under that branch
+
+# Setup & Init
+`git init` Initialize an existing directory as a Git repository
+
+`git clone {GIT HTTPS}` Retrieve an entire repository from a hosted location via URL
